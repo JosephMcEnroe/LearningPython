@@ -1,5 +1,5 @@
-x = 4.
-y = 5.
+x = int(4)
+y = int(5)
 
 print(x+y) #Addition
 print(x-y) #Subtraction
