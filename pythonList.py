@@ -16,4 +16,11 @@ print(my_list) # one two three four five
 
 #adding new element to list
 my_list.append('six') #append = adds item to end of the list
+print(my_list)#one two three four five six
+
+#deleting end of the list
+popped_item = my_list.pop()
+print(my_list)#one two three four five 
+print(popped_item)
+
 
