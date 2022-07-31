@@ -44,7 +44,24 @@ print(myString)
 myString = myString.lower() #makes everything in the string lowercase
 print(myString)
 
+#Learning about Split Method
 myString = 'Hello World'
 myString = myString.split('l') #splits string into a list based on what you put in the parentthesis
 print(myString)
+
+#Learning about format method
+print("The {} {} {}".format('fox','brown','quick')) #fox brown quick
+print("The {2} {1} {0}".format('fox','brown','quick')) #quick brown fox
+print("The {q} {b} {f}".format(f= 'fox',b= 'brown', q ='quick')) #using assignment in formating
+
+name = 'Joseph'
+age = 20
+print(f'{name} is {age} years old')
+
+#Learning about floating formating
+result = 100/777
+print(result)# 0.1287001287001287
+print("The Result was {r:1.3f}".format(r = result)) # The result is 0.129
+
+
 
