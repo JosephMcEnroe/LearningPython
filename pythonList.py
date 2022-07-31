@@ -22,5 +22,20 @@ print(my_list)#one two three four five six
 popped_item = my_list.pop()
 print(my_list)#one two three four five 
 print(popped_item)
+my_list.pop(0)#can also pop variables from beginning of the list
+
+
+new_list = ['a','e','x','b','c']
+num_list = [4,1,8,3]
+
+#sorting list
+new_list.sort()
+print(new_list) #a b c e x
+
+#reverse list
+num_list.reverse()
+print(num_list)#3814
+
+
 
 
