@@ -19,6 +19,8 @@ else:
 loc = 'Bank'
 
 if loc == 'Auto Shop':
-    print('Cars are cool!')
+    print('Cars are cool!')#prints if AutoShop is true
+elif loc == 'Store':
+    print("Welcome to the Store!")#prints if it is Store
 else:
-    print("I don't know much")
+    print("I don't know much stuff")
