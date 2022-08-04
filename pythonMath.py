@@ -6,3 +6,4 @@ print(x-y) #Subtraction
 print(x*y) #Multiplaction
 print(x/y) #division
 print(x%y) #returns the remainder
+print(x**2)#square root
