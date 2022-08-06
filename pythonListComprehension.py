@@ -25,5 +25,7 @@ celcius = [0,10,20,34.5]
 fahrenheit = [((9/5)*temp+32) for temp in celcius]
 print(fahrenheit)
 
-results = [x if x%2==0 else 'ODD' for x in range(0,11)]
+results = [x if x%2==0 else 'ODD' for x in range(0,11)] #dont do this lol, readablity and reproducible
 print(results)
+
+
