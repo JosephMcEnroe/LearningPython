@@ -36,6 +36,12 @@ print(new_list) #a b c e x
 num_list.reverse()
 print(num_list)#3814
 
+#insert list
+#insert method adds a value at a certain place at a list LISTNAME.insert(place you want to insert value(number), value)
+new_list = ["Apples","Pineapple","Oranges"]
+new_list.insert(-1,"banana")#insert banana at the end of the list
+print(new_list)
+
 
 
 
