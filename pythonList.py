@@ -9,8 +9,8 @@ print(my_list[0])#one
 
 #slicing list
 print(my_list[0:2])#one, two
-print(my_list[:-1]) #one, two if the value is at the right side of the colon, 
-print(my_list[-1:]) #one, two
+print(my_list[:-1]) #one, two if the value is at the right side of the colon, it will slice from the value down
+print(my_list[-1:]) #three if the value is at the left side of the colon, the will slice from the value up
 
 #immutation
 another_list = ['four,five']
@@ -32,9 +32,20 @@ my_list.pop(0)#can also pop variables from beginning of the list
 new_list = ['a','e','x','b','c']
 num_list = [4,1,8,3]
 
-#sorting list
+#sorting list **changes the orginal list
 new_list.sort()
 print(new_list) #a b c e x
+
+cities = ["London", "Paris", "Rome", "Los Angeles", "New York"]
+sorted_cities = cities.sort(reverse=True)
+print(sorted_cities)
+print(cities)
+
+#sorted function **doesn't change the orignial list
+games = ["Portal", "Minecraft", "Pacman", "Tetris", "The Sims", "Pokemon"]
+games_sorted = []
+games_sorted = sorted(games)
+print(games_sorted)
 
 #reverse list
 num_list.reverse()
